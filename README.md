@@ -4,9 +4,9 @@ A generic boilerplate installer that encourages the capture of standards and pat
 
 Simply point the installer to a zip file resource and tell it where to download.
 
-	smrtr install <src> <dest>
+	merlin install <src> <dest>
 
-	smrtr install https://example.com/project/master.zip path/to/new/project
+	merlin install https://example.com/project/master.zip path/to/new/project
 
 
 # Installation
@@ -21,5 +21,6 @@ Simply point the installer to a zip file resource and tell it where to download.
 # Tests
 
 	php vendor/bin/phpunit
+
 
 
