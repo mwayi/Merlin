@@ -1,0 +1,25 @@
+{
+    "name": "mwayi/merlin",
+    "description": "A generic boilerplate installer",
+    "keywords": ["Boilerplate", "Builder", "Installer"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mwayi Dzanjalimodzi",
+            "email": "mwayi@smrtr.co.uk"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Smrtr\\Merlin\\": "src/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "~4.0|~5.0|~6.0",
+        "symfony/console": "~2.3|~3.0",
+        "illuminate/filesystem": "^5.3"
+    },
+    "bin": [
+        "merlin"
+    ]
+}

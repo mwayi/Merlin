@@ -1,6 +1,6 @@
-# Boilerplate Installer
+# Merlin
 
-A boilerplate installer that encourages the capture of standards and patterns into helpful starter packs.
+A generic boilerplate installer that encourages the capture of standards and patterns into helpful starter packs.
 
 Simply point the installer to a zip file resource and tell it where to download.
 
